@@ -10,7 +10,7 @@
                 competition</h1>
             <p class="text-lg md:text-2xl">Discover and join sports events, build your calendar, and connect with the
                 community.</p>
-            <Button class="lg:w-fit">Get Started</Button>
+            <Button class="lg:w-fit" link="/auth">Get Started</Button>
         </div>
     </div>
 </template>

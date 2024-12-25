@@ -35,7 +35,6 @@ function navigate() {
     :class="cn(buttonVariants({ variant, size }), props.class)" @click="navigate">
     <slot />
     <Icon v-if="loading" name="svg-spinners:270-ring" class="ml-2" />
-
     <Icon v-if="icon" :name="icon" class="ml-2" :class="{ iconStart: '-order-1' }" />
   </Primitive>
 </template>
