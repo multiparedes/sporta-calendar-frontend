@@ -1,17 +1,17 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  compatibilityDate: "2024-04-03",
+  compatibilityDate: '2024-04-03',
   devtools: { enabled: true },
   modules: [
-    "@nuxtjs/tailwindcss",
-    "@nuxt/fonts",
-    "shadcn-nuxt",
-    "@nuxt/icon",
-    "@vueform/nuxt",
-    "@formkit/auto-animate/nuxt",
-    "floating-vue/nuxt",
+    '@nuxtjs/tailwindcss',
+    '@nuxt/fonts',
+    'shadcn-nuxt',
+    '@nuxt/icon',
+    '@vueform/nuxt',
+    '@formkit/auto-animate/nuxt',
+    'floating-vue/nuxt',
   ],
-  css: ["~/assets/css/main.css"],
+  css: ['~/assets/css/main.css'],
   postcss: {
     plugins: {
       tailwindcss: {},
@@ -22,11 +22,11 @@ export default defineNuxtConfig({
     /**
      * Prefix for all the imported component
      */
-    prefix: "",
+    prefix: '',
     /**
      * Directory that the component lives in.
      * @default "./components/ui"
      */
-    componentDir: "./components/ui",
+    componentDir: './components/ui',
   },
-});
+})
